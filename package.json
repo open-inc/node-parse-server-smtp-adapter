@@ -1,0 +1,29 @@
+{
+  "name": "@openinc/parse-server-smtp-adapter",
+  "version": "0.1.0",
+  "description": "Parse Server adapter for SMTP/nodemailer using nunjucks templates",
+  "keywords": [
+    "parse",
+    "mail",
+    "adapter",
+    "smtp",
+    "nodemailer",
+    "nunjucks"
+  ],
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "@types/node": "^13.11.0",
+    "@types/parse": "^2.10.18",
+    "nodemailer": "^6.4.6",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
